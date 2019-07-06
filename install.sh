@@ -16,4 +16,4 @@ sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
 echo "snippet pri\n\Tab print("${1}") into python.snippets"
 echo "inromap <Tab> -> <C-n>"
 
-[ "$(which ag)" == "" ] && echo "git clone https://github.com/ggreer/the_silver_searcheri && ./build.sh"
+[ "$(which ag)" == "" ] && echo "YOU NEED TO INSTALL AG FIRST!!!!"
