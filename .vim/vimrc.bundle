@@ -46,7 +46,6 @@ source ~/.vim/confs/snippets.vim
 source ~/.vim/confs/nerdtree.vim
 source ~/.vim/confs/tagbar.vim
 source ~/.vim/confs/powerline.vim
-source ~/.vim/confs/ctags.vim
 source ~/.vim/confs/supertab.vim
 source ~/.vim/confs/quickrun.vim
 source ~/.vim/confs/easymotion.vim
