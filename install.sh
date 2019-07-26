@@ -1,6 +1,11 @@
 #!/bin/sh
 
-sudo apt-get install build-essentail vim net-tools git openssh-server cmake trace-cmd silversearcher-ag
+if [ "$(uname)" = "Darwin" ]; then
+  echo "This is mac os x"
+else
+  echo "This maybe be Linux"
+  sudo apt-get install build-essentail vim net-tools git openssh-server cmake trace-cmd silversearcher-ag kernelshark
+fi
 
 ln -sf $(pwd)/.vimrc ~/.vimrc
 ln -sf $(pwd)/.inputrc ~/.inputrc
