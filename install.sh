@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt-get install build-essentail vim net-tools git openssh-server cmake trace-cmd silversearcher-ag
+
 ln -sf $(pwd)/.vimrc ~/.vimrc
 ln -sf $(pwd)/.inputrc ~/.inputrc
 ln -sf $(pwd)/.bash_profile ~/.bash_profile
