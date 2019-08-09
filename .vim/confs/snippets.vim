@@ -1,9 +1,9 @@
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
-let g:UltiSnipsExpandTrigger       = "<c-e>"
-let g:UltiSnipsJumpForwardTrigger  = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsExpandTrigger       = "<space>"
+let g:UltiSnipsJumpForwardTrigger  = "<space>"
+let g:UltiSnipsJumpBackwardTrigger = "<up>"
 let g:UltiSnipsSnippetDirectories  = ['UltiSnips']
 let g:UltiSnipsSnippetsDir = '~/.vim/bundle/vim-snippets/snippets'
 " 进入对应filetype的snippets进行编辑
