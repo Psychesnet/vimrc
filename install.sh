@@ -20,7 +20,12 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -u ~/.vimrc +BundleInstall! +BundleClean +qall
 sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
 
-echo "snippet pri\n\Tab print("${1}") into python.snippets"
-echo "inromap <Tab> -> <C-n>"
+if [ "$(uname)" = "Darwin" ]; then
+    sed -i "" "s/\'<Tab>\', //g" ~/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+    sed -i "" "s/\'<S-Tab>\', //g" ~/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+else
+    sed -i "s/\'<Tab>\', //g" ~/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+    sed -i "s/\'<S-Tab>\', //g" ~/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+fi
 
 [ "$(which ag)" == "" ] && echo "YOU NEED TO INSTALL AG FIRST!!!!"
