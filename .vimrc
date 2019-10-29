@@ -37,12 +37,11 @@ set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%
 "colorscheme solarized
 
 highlight CursorLine cterm=none ctermbg=2 ctermfg=0
-highlight DiffAdd    cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
-highlight DiffDelete cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
-highlight DiffChange cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
-highlight DiffText   cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
-set dictionary+=/usr/share/dict/words
-map <C-K> viwy:!ydict -w <C-R>"<CR>
+" highlight DiffAdd    cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
+" highlight DiffDelete cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
+" highlight DiffChange cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
+" highlight DiffText   cterm=bold ctermfg=11 ctermbg=9 gui=none guifg=bg guibg=Red
+" set dictionary+=/usr/share/dict/words
 
 " bundle list
 source ~/.vim/vimrc.bundle
