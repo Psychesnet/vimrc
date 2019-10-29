@@ -55,6 +55,7 @@ source ~/.vim/confs/easy.vim
 source ~/.vim/confs/pyflakes.vim
 source ~/.vim/confs/slumlord.vim
 source ~/.vim/confs/ag.vim
+source ~/.vim/confs/dirdiff.vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

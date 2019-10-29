@@ -6,7 +6,7 @@ Plugin 'rking/ag.vim'
 let g:ag_qhandler="copen 40"
 
 "start a search query by pressing \
-nnoremap \  :Ag!<space>
+nnoremap \\  :Ag!<space>
 
 "search for word under cursor by pressing |
 nnoremap \| :Ag! "\b<C-R><C-W>\b"<cr>:cw<cr>
