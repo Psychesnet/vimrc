@@ -47,7 +47,7 @@ source ~/.vim/confs/snippets.vim
 source ~/.vim/confs/defx.nvim
 source ~/.vim/confs/tagbar.vim
 source ~/.vim/confs/powerline.vim
-source ~/.vim/confs/supertab.vim
+"source ~/.vim/confs/supertab.vim
 source ~/.vim/confs/quickrun.vim
 source ~/.vim/confs/easymotion.vim
 source ~/.vim/confs/easy.vim
@@ -57,6 +57,7 @@ source ~/.vim/confs/pyflakes.vim
 source ~/.vim/confs/slumlord.vim
 source ~/.vim/confs/ag.vim
 source ~/.vim/confs/neovim.vim
+source ~/.vim/confs/nvimgdb.nvim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

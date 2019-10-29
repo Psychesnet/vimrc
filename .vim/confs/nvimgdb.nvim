@@ -1,0 +1,11 @@
+Plugin 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
+
+nnoremap <localleader>d  :GdbStart gdb<cr>
+nnoremap <localleader>b  :GdbBreakpointToggle<cr>
+nnoremap <localleader>r  :GdbUntil<cr>
+nnoremap <localleader>c  :GdbContinue<cr>
+nnoremap <localleader>n  :GdbNext<cr>
+nnoremap <localleader>s  :GdbStep<cr>
+nnoremap <localleader>q  :GdbFinish<cr>
+nnoremap <localleader>n  :GdbFrameUp<cr>
+nnoremap <localleader>m  :GdbFrameDown<cr>
